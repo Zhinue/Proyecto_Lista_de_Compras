@@ -1,0 +1,32 @@
+form{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+}
+form div{
+    padding: 5px 0;
+}
+
+form label{
+    display: block;
+    padding: 10px 0;
+}
+form input[type=text]{
+    width: 100%;
+    padding: 5px;
+}
+
+.action-button{
+  border: none;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  width: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.action-button:hover{
+  background-color: darkgreen;
+}
